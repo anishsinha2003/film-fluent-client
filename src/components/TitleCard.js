@@ -7,7 +7,7 @@ const TitleCard = ({updatePage, setListOfReviews, setTitleData, name, tags, acto
     try {
       updatePage("loading")
       // const response = await fetch('http://127.0.0.1:5000/get/reviews', {
-      const response = await fetch('https://film-fluent-5e2640934ccd.herokuapp.com//reviews', {
+      const response = await fetch('https://film-fluent-5e2640934ccd.herokuapp.com//get/reviews', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
