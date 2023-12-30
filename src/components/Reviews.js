@@ -97,6 +97,7 @@ const Reviews = ({ updatePage, listOfReviews, titleData }) => {
                 name_date={reviews.name_date}
                 content={reviews.content}
               />
+              <br/><br/>
               </>
             ))}
           </div>
