@@ -1,0 +1,39 @@
+.error-body {
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  min-height: 100vh;
+  background-image: url('../images/background.png');
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  padding-left: 40px;
+}
+
+.error-logo {
+  width: 650px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.back-error-button {
+  width:fit-content;
+  background-color: #EB8884;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  display: block;
+  margin: 10px auto;
+}
+
+.back-error-button:hover {
+  transform: scale(1.1);
+}
